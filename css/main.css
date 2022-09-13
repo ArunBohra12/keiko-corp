@@ -1,4 +1,4 @@
-/*		Fonts	*/
+/* Fonts */
 @font-face {
     font-family: 'open_regular';
     src: url('../fonts/opensans-regular.eot');
@@ -36,17 +36,11 @@
 
 }
 
-
-
-
-
-
-
 section, footer {
 	background: #fffcfc;
 }
 
-/*		General CSS		*/
+/* General CSS */
 body{
 	background: #20866e;
 	padding: 0px;
@@ -62,16 +56,7 @@ a:focus{
 	max-width: 1130px;
 }
 
-
-
-
-
-
-
-
-
-
-/*		Header 		*/
+/* Header */
 
 header{
 	position: relative;
@@ -184,25 +169,7 @@ header .social li:first-child{
 	margin: 0;
 }
 
-
-
-
-
-
-
-
-
-
-/*		Hero section 		*/
-
-.hero{
-	display: block;
-	position: relative;
-	width: 100%;
-	height: 560px;
-	background: url('../img/hero.jpg') no-repeat fixed center center;
-	background-size: cover;
-}
+/* Hero section 		*/
 
 .hero .caption{
 	position: absolute;
@@ -354,16 +321,7 @@ a.app_link{
   font-weight: bolder;
 }
 
-
-
-
-
-
-
-
-
-
-/*		Featured on section 		*/
+/* Featured on section */
 
 .featured_on{
 	width: 100%;
@@ -384,16 +342,7 @@ a.app_link{
 	margin-left: 0;
 }
 
-
-
-
-
-
-
-
-
-
-/*		About section 		*/
+/* About section */
 
 .about{
 	padding: 100px 0;
@@ -481,16 +430,7 @@ a.app_link{
 	display: inline-block;
 }
 
-
-
-
-
-
-
-
-
-
-/*		App features 		*/
+/* App features */
 
 .app_features{
 	width: 100%;
@@ -527,16 +467,7 @@ a.app_link{
 	clear: both;
 }
 
-
-
-
-
-
-
-
-
-
-/*		Testimonials section 		*/
+/* Testimonials section */
 
 .testimonials{
 	padding: 100px 0;
@@ -584,7 +515,7 @@ a.app_link{
 	font-size: 14px;
 }
 
-.#tslider{
+#tslider{
 	text-align: center!important;
 	position: relative!important;
 }
@@ -633,16 +564,7 @@ a.app_link{
 	background-position: -33px 0;
 }
 
-
-
-
-
-
-
-
-
-
-/*		Subscription section 		*/
+/* Subscription section */
 
 .sub_box{
 	width: 100%;
@@ -741,16 +663,7 @@ a.app_link{
 	display: none;
 }
 
-
-
-
-
-
-
-
-
-
-/*		Footer 		*/
+/* Footer */
 
 footer{
 	padding: 100px 0;
@@ -777,15 +690,7 @@ footer .copyright a{
 	color: #565555;
 }
 
-
-
-
-
-
-
-
-
-/*		Responsive CSS 		*/
+/* Responsive CSS */
 
 @media (max-width: 360px) {
 	.featured_on li{
@@ -797,7 +702,7 @@ footer .copyright a{
 @media (max-width: 767px) {
 
 
-	/*		Header 		*/
+	/* Header */
 	header .logo{
 		margin-right: 0;
 	}
@@ -847,12 +752,7 @@ footer .copyright a{
 		margin-left: 10px;
 	}
 
-
-
-
-
-
-	/*		Hero section 		*/
+	/* Hero section */
 	.hero .caption{
 		margin-left: 0;
 	}
@@ -865,11 +765,7 @@ footer .copyright a{
 		text-align: center;
 	}
 
-
-
-
-
-	/*		Featured on section		*/
+	/* Featured on section */
 	.featured_on{
 		padding: 25px 0 5px 0!important;
 	}
@@ -878,12 +774,7 @@ footer .copyright a{
 		margin-bottom: 25px!important;
 	}
 
-
-
-
-
-
-	/*		About Section 		*/
+	/* About Section */
 	.about .features_list {
 		text-align: center;
 		margin: 0;
@@ -904,12 +795,7 @@ footer .copyright a{
 		margin-top: 20px;
 	}
 
-
-
-
-
-
-	/*		Subscription section 		*/
+	/* Subscription section */
 	.sub_box #mc-email,
 	.sub_box #mc_submit{
 		display: block;
